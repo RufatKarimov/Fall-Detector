@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1110BF6429AC0E0500CDBE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF6329AC0E0500CDBE34 /* AppDelegate.swift */; };
-		1110BF6629AC0E0500CDBE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF6529AC0E0500CDBE34 /* SceneDelegate.swift */; };
-		1110BF6829AC0E0500CDBE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF6729AC0E0500CDBE34 /* ViewController.swift */; };
 		1110BF6B29AC0E0500CDBE34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1110BF6929AC0E0500CDBE34 /* Main.storyboard */; };
 		1110BF6D29AC0E0600CDBE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1110BF6C29AC0E0600CDBE34 /* Assets.xcassets */; };
 		1110BF7029AC0E0600CDBE34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1110BF6E29AC0E0600CDBE34 /* LaunchScreen.storyboard */; };
+		1110BF7C29AC0E3C00CDBE34 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF7729AC0E3B00CDBE34 /* VideoCapture.swift */; };
+		1110BF7D29AC0E3C00CDBE34 /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF7829AC0E3B00CDBE34 /* Predictor.swift */; };
+		1110BF7E29AC0E3C00CDBE34 /* FallingDetection 1.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF7929AC0E3C00CDBE34 /* FallingDetection 1.mlpackage */; };
+		1110BF7F29AC0E3C00CDBE34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF7A29AC0E3C00CDBE34 /* ViewController.swift */; };
+		1110BF8029AC0E3C00CDBE34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF7B29AC0E3C00CDBE34 /* SceneDelegate.swift */; };
+		1110BF8229AC0E4700CDBE34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1110BF8129AC0E4700CDBE34 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1110BF6029AC0E0500CDBE34 /* Fall Detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fall Detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1110BF6329AC0E0500CDBE34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1110BF6529AC0E0500CDBE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1110BF6729AC0E0500CDBE34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1110BF6A29AC0E0500CDBE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1110BF6C29AC0E0600CDBE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1110BF6F29AC0E0600CDBE34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1110BF7129AC0E0600CDBE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1110BF7729AC0E3B00CDBE34 /* VideoCapture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoCapture.swift; path = "../../../Downloads/Falling Detector/VideoCapture.swift"; sourceTree = "<group>"; };
+		1110BF7829AC0E3B00CDBE34 /* Predictor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Predictor.swift; path = "../../../Downloads/Falling Detector/Predictor.swift"; sourceTree = "<group>"; };
+		1110BF7929AC0E3C00CDBE34 /* FallingDetection 1.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = "FallingDetection 1.mlpackage"; path = "../../../Downloads/Falling Detector/FallingDetection 1.mlpackage"; sourceTree = "<group>"; };
+		1110BF7A29AC0E3C00CDBE34 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../../Downloads/Falling Detector/ViewController.swift"; sourceTree = "<group>"; };
+		1110BF7B29AC0E3C00CDBE34 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = "../../../Downloads/Falling Detector/SceneDelegate.swift"; sourceTree = "<group>"; };
+		1110BF8129AC0E4700CDBE34 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../Downloads/Falling Detector/AppDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +62,16 @@
 		1110BF6229AC0E0500CDBE34 /* Fall Detector */ = {
 			isa = PBXGroup;
 			children = (
-				1110BF6329AC0E0500CDBE34 /* AppDelegate.swift */,
-				1110BF6529AC0E0500CDBE34 /* SceneDelegate.swift */,
-				1110BF6729AC0E0500CDBE34 /* ViewController.swift */,
 				1110BF6929AC0E0500CDBE34 /* Main.storyboard */,
 				1110BF6C29AC0E0600CDBE34 /* Assets.xcassets */,
 				1110BF6E29AC0E0600CDBE34 /* LaunchScreen.storyboard */,
 				1110BF7129AC0E0600CDBE34 /* Info.plist */,
+				1110BF7929AC0E3C00CDBE34 /* FallingDetection 1.mlpackage */,
+				1110BF7829AC0E3B00CDBE34 /* Predictor.swift */,
+				1110BF7B29AC0E3C00CDBE34 /* SceneDelegate.swift */,
+				1110BF7729AC0E3B00CDBE34 /* VideoCapture.swift */,
+				1110BF7A29AC0E3C00CDBE34 /* ViewController.swift */,
+				1110BF8129AC0E4700CDBE34 /* AppDelegate.swift */,
 			);
 			path = "Fall Detector";
 			sourceTree = "<group>";
@@ -99,6 +108,7 @@
 				TargetAttributes = {
 					1110BF5F29AC0E0500CDBE34 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -138,9 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1110BF6829AC0E0500CDBE34 /* ViewController.swift in Sources */,
-				1110BF6429AC0E0500CDBE34 /* AppDelegate.swift in Sources */,
-				1110BF6629AC0E0500CDBE34 /* SceneDelegate.swift in Sources */,
+				1110BF8229AC0E4700CDBE34 /* AppDelegate.swift in Sources */,
+				1110BF8029AC0E3C00CDBE34 /* SceneDelegate.swift in Sources */,
+				1110BF7D29AC0E3C00CDBE34 /* Predictor.swift in Sources */,
+				1110BF7C29AC0E3C00CDBE34 /* VideoCapture.swift in Sources */,
+				1110BF7F29AC0E3C00CDBE34 /* ViewController.swift in Sources */,
+				1110BF7E29AC0E3C00CDBE34 /* FallingDetection 1.mlpackage in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LG992YVJQY;
@@ -303,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "RufatKarimov.Fall-Detector";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -313,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LG992YVJQY;
